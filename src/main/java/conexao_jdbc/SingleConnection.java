@@ -26,6 +26,7 @@ public class SingleConnection {
 				connection = DriverManager.getConnection(url, user, password);
 				connection.setAutoCommit(false);
 				System.out.println("Banco de Dados Conectado com Sucesso!!!");
+				System.out.println("");
 			}
 			
 		}catch (Exception e) {
